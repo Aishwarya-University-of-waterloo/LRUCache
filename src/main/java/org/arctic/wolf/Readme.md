@@ -26,7 +26,7 @@ To use the cache implementation:
 The project includes test cases to validate the functionality of the cache implementation. These test cases cover various scenarios, including cache size limitation, time-based invalidation, and eviction based on least frequency usage.
 
 ## Dependencies
-- Java (version 8.X.X)
+- Java (version 18.0.2 - aarch 64)
 
 ## How to Run
 To run the test cases:

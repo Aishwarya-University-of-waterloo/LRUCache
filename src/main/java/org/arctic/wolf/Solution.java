@@ -8,7 +8,7 @@ public class Solution {
 
         addSomeDataToCache_WhenGetData_ThenIsEqualWithCacheElement();
         keysAndValuesAreGeneric();
-        checkLeastRecent_And_MonstRecent_Value();
+        checkLeastRecent_And_MostRecent_Value();
         addDataToCacheOfSizeLimit_WhenAddDataWithinSizeLimit_ThenDataShouldBeAccessible();
         updateSomeDataToCache_WhenGetData_ThenIsEqualWithCacheElement();
         evictLeastFrequentlyUsedData_WhenCacheIsFullAndNewDataAdded_ThenLeastFrequentDataShouldBeEvicted();
@@ -47,7 +47,7 @@ public class Solution {
         System.out.println("keysAndValuesAreGeneric :: Successful");
     }
 
-    public static void checkLeastRecent_And_MonstRecent_Value(){
+    public static void checkLeastRecent_And_MostRecent_Value(){
         LFUCache<Integer,String> lfuCache = new LFUCache<>();
         lfuCache.initialize(5);
         lfuCache.put(1, "A");
