@@ -59,7 +59,7 @@ public class Solution {
         assertTrue(lfuCache.mostRecentlyUsed.getKey().equals(1));
         assertTrue(lfuCache.leastRecentlyUsed.getKey().equals(2));
 
-        System.out.println("checkLeastRecent_And_MonstRecent_Value :: Successful");
+        System.out.println("checkLeastRecent_And_MostRecent_Value :: Successful");
     }
 
 
